@@ -1,0 +1,36 @@
+{
+  "name": "mui-sample",
+  "version": "1.0.0",
+  "description": "Node.js + Typescript + Material UI for Examples.",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --watch-content-base --content-base public/ --open-page index.html",
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ichi5/mui-sample.git"
+  },
+  "author": "s.ishigami",
+  "license": "MIT",
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "material-ui"
+  ],
+  "dependencies": {
+    "@material-ui/core": "^4.8.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^16.9.4",
+    "html-webpack-plugin": "^3.2.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1"
+  }
+}
